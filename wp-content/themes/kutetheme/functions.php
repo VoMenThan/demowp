@@ -620,8 +620,8 @@ if( ! function_exists( 'kt_display_result_post' ) ){
         global $wp_query;
         ?>
         <span class="results-count">
-            <?php _e( 'Showing', 'kutetheme' );?> 
-            <?php $num = $wp_query->post_count; if ( have_posts()) : echo intval($num); endif;?> <?php _e( 'of', 'kutetheme' );?> <?php echo intval( $wp_query->found_posts );?> <?php _e('posts', 'kutetheme' );?> </h2>
+            <?php _e( 'Đang hiển thị', 'kutetheme' );?>
+            <?php $num = $wp_query->post_count; if ( have_posts()) : echo intval($num); endif;?> <?php _e( '/', 'kutetheme' );?> <?php echo intval( $wp_query->found_posts );?> <?php _e('bài viết', 'kutetheme' );?> </h2>
         </span>
         <?php
     }

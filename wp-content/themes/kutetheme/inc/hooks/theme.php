@@ -193,12 +193,12 @@ if( ! function_exists( 'kt_show_menu_option_1' ) ){
             <div id="box-vertical-megamenus" class="vertical-wapper">
                 <div data-items="<?php echo esc_attr( $kt_vertical_item_visible );?>" class="box-vertical-megamenus <?php if( $kt_click_open_vertical_menu =="enable") echo esc_attr( 'hiden_content' ); else echo esc_attr( 'show_content' );?>">
                     <h4 class="title">
-                        <span class="title-menu"><?php _e( 'Categories', 'kutetheme' ); ?></span>
+                        <span class="title-menu"><?php _e( 'Danh mục', 'kutetheme' ); ?></span>
                         <span class="btn-open-mobile home-page"><i class="fa fa-bars"></i></span>
                     </h4>
                     <div class="vertical-menu-content">
                         <?php kt_setting_vertical_menu(); ?>
-                        <div class="all-category"><span data-open_text="<?php _e( 'All Categories','kutetheme' );?>" data-close_text="<?php _e( 'Close','kutetheme' );?>" class="open-cate"><?php esc_html_e( 'All Categories', 'kutetheme' ) ?></span></div>
+                        <div class="all-category"><span data-open_text="<?php _e( 'Tất cả danh mục','kutetheme' );?>" data-close_text="<?php _e( 'Đóng','kutetheme' );?>" class="open-cate"><?php esc_html_e( 'Tất cả danh mục', 'kutetheme' ) ?></span></div>
                     </div>
                 </div>
             </div>
@@ -255,12 +255,12 @@ if( ! function_exists( 'kt_show_menu_option_3' ) ){
             <div id="box-vertical-megamenus" class="vertical-wapper">
                 <div data-items="<?php echo esc_attr( $kt_vertical_item_visible );?>" class="box-vertical-megamenus <?php if( $kt_click_open_vertical_menu =="enable") echo esc_attr( 'hiden_content' );?>">
                     <h4 class="title">
-                        <span class="title-menu"><?php _e( 'Categories', 'kutetheme' ); ?></span>
+                        <span class="title-menu"><?php _e( 'Danh mục', 'kutetheme' ); ?></span>
                         <span class="btn-open-mobile home-page"><i class="fa fa-bars"></i></span>
                     </h4>
                     <div class="vertical-menu-content">
                         <?php kt_setting_vertical_menu(); ?>
-                        <div class="all-category"><span data-open_text="<?php _e( 'All Categories','kutetheme' );?>" data-close_text="<?php _e( 'Close','kutetheme' );?>" class="open-cate"><?php esc_html_e( 'All Categories', 'kutetheme' ) ?></span></div>
+                        <div class="all-category"><span data-open_text="<?php _e( 'Tất cả danh mục','kutetheme' );?>" data-close_text="<?php _e( 'Close','kutetheme' );?>" class="open-cate"><?php esc_html_e( 'All Categories', 'kutetheme' ) ?></span></div>
                     </div>
                 </div>
             </div>
@@ -285,7 +285,7 @@ if( ! function_exists( 'kt_show_vertical_menu_option_4' ) ){
         <div id="box-vertical-megamenus" class="vertical-wapper">
             <div data-items="<?php echo esc_attr( $kt_vertical_item_visible );?>" class="box-vertical-megamenus <?php if( $kt_click_open_vertical_menu =="enable") echo esc_attr( 'hiden_content' );?>">
                 <h4 class="title">
-                    <span class="title-menu"><?php _e( 'Categories', 'kutetheme' ); ?></span>
+                    <span class="title-menu"><?php _e( 'Danh mục', 'kutetheme' ); ?></span>
                     <span class="btn-open-mobile home-page"><i class="fa fa-bars"></i></span>
                 </h4>
                 <div class="vertical-menu-content">

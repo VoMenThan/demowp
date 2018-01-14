@@ -580,7 +580,7 @@ class WPBakeryShortCode_Brand extends WPBakeryShortCode {
                                                 <div class="trademark-desc">
                                                     <?php echo esc_html( $term->description ) ?>
                                                 </div>
-                                                <a href="<?php echo esc_url( $term_link ); ?>" class="trademark-link"><?php _e( 'shop this brand', 'kutetheme' ) ?></a>
+                                                <a href="<?php echo esc_url( $term_link ); ?>" class="trademark-link"><?php _e( 'Thương hiệu trên cửa hàng', 'kutetheme' ) ?></a>
                                             </div>
                                             <div class="col-xs-12 col-sm-8 trademark-product">
                                                 <div class="row">
@@ -614,7 +614,7 @@ class WPBakeryShortCode_Brand extends WPBakeryShortCode {
                                                         			do_action( 'kt_after_shop_loop_item_title' );
                                                         		?>
                                                             </div>
-                                                            <a class="btn-view-more" title="<?php _e( 'View More', 'kutetheme' ) ?>" href="<?php echo esc_url( $link ); ?>"><?php _e( 'View More', 'kutetheme' ) ?></a>
+                                                            <a class="btn-view-more" title="<?php _e( 'Xem chi tiết', 'kutetheme' ) ?>" href="<?php echo esc_url( $link ); ?>"><?php _e( 'Xem chi tiết', 'kutetheme' ) ?></a>
                                                         </div>
                                                     </div>
                                                     <?php endwhile; ?>

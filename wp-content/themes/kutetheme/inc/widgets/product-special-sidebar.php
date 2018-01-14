@@ -64,7 +64,7 @@ class Widget_KT_Product_Special extends WP_Widget {
                 </ul>
                 <div class="products-block">
                     <div class="products-block-bottom">
-                        <a class="link-all" href="<?php echo esc_url( $shop_page_url ) ; ?>"><?php esc_html_e( 'All Products', 'kutetheme' ) ?></a>
+                        <a class="link-all" href="<?php echo esc_url( $shop_page_url ) ; ?>"><?php esc_html_e( 'Xem tất cả', 'kutetheme' ) ?></a>
                     </div>
                 </div>
             </div>                            

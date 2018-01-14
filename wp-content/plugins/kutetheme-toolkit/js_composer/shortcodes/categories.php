@@ -204,7 +204,7 @@ class WPBakeryShortCode_Categories extends WPBakeryShortCode {
                                 <div class="cate-name-wrap">
                                     <p class="cate-name"><?php echo esc_html($term->name) ?></p>
                                 </div>
-                                <a href="<?php echo esc_url( $term_link ); ?>" class="cate-link link-active" data-ac="flipInX" ><span><?php _e('shop now', 'kutetheme') ?></span></a>
+                                <a href="<?php echo esc_url( $term_link ); ?>" class="cate-link link-active" data-ac="flipInX" ><span><?php _e('mua ngay', 'kutetheme') ?></span></a>
                             </div>
                             <div class="div-2" >
                                 <?php if($image) : ?>

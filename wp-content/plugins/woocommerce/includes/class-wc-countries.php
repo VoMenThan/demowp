@@ -611,7 +611,7 @@ class WC_Countries {
 			'address_1' => array(
 				'label'        => __( 'Street address', 'woocommerce' ),
 				/* translators: use local order of street name and house number. */
-				'placeholder'  => esc_attr__( 'House number and street name', 'woocommerce' ),
+				'placeholder'  => esc_attr__( 'Số nhà và tên phố', 'woocommerce' ),
 				'required'     => true,
 				'class'        => array( 'form-row-wide', 'address-field' ),
 				'autocomplete' => 'address-line1',

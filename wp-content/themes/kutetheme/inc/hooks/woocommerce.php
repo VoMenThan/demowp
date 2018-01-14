@@ -436,7 +436,7 @@ if( ! function_exists('kt_get_cart_content') ){
                                             );
                                             ?>
                                             <p class="p-rice"><?php echo  wp_kses( $product_price, $allowed_html )  ?></p>
-                                            <?php echo apply_filters( 'woocommerce_widget_cart_item_quantity', '<p class="quantity">' . sprintf( esc_attr__('Qty: ', 'kutetheme').esc_attr__('%s', 'kutetheme'), $cart_item['quantity'] ) . '</p>', $cart_item, $cart_item_key ); ?>
+                                            <?php echo apply_filters( 'woocommerce_widget_cart_item_quantity', '<p class="quantity">' . sprintf( esc_attr__('Số lượng: ', 'kutetheme').esc_attr__('%s', 'kutetheme'), $cart_item['quantity'] ) . '</p>', $cart_item, $cart_item_key ); ?>
                                         </div>
                                     </li>
                                 <?php endif; ?>
@@ -444,13 +444,13 @@ if( ! function_exists('kt_get_cart_content') ){
                         </ul>
                     </div>
                     <div class="toal-cart">
-                        <span><?php esc_html_e( 'Total', 'kutetheme' ) ?></span>
+                        <span><?php esc_html_e( 'Tổng', 'kutetheme' ) ?></span>
                         <span class="toal-price pull-right">
                             <?php echo WC()->cart->get_cart_total() ?>
                         </span>
                     </div>
                     <div class="cart-buttons">
-                        <a href="<?php echo esc_url( $check_out_url ); ?>" class="btn-check-out"><?php echo esc_html_e( 'Checkout', 'kutetheme' ); ?></a>
+                        <a href="<?php echo esc_url( $check_out_url ); ?>" class="btn-check-out"><?php echo esc_html_e( 'Thanh toán', 'kutetheme' ); ?></a>
                     </div>
                 </div>
             </div>

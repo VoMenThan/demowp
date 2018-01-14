@@ -61,7 +61,7 @@ class WC_Shortcode_My_Account {
 			ob_start();
 
 			if ( isset( $wp->query_vars['customer-logout'] ) ) {
-				wc_add_notice( sprintf( __( 'Are you sure you want to log out? <a href="%s">Confirm and log out</a>', 'woocommerce' ), wc_logout_url() ) );
+				wc_add_notice( sprintf( __( 'Bạn có chắc là mình muốn thoát? <a href="%s">Chấp nhận thoát</a>', 'woocommerce' ), wc_logout_url() ) );
 			}
 
 			// Collect notices before output

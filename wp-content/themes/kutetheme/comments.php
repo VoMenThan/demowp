@@ -25,7 +25,7 @@ if ( post_password_required() ) {
 	<?php if ( have_comments() ) : ?>
 		<h2 class="comments-title">
 			<?php
-				printf( _nx( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'kutetheme' ),
+				printf( _nx( 'Một cảm nhận về bài viết &ldquo;%2$s&rdquo;', '%1$s cảm nhận về bài viết &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'kutetheme' ),
 					number_format_i18n( get_comments_number() ), get_the_title() );
 			?>
 		</h2>
@@ -50,7 +50,7 @@ if ( post_password_required() ) {
 		// If comments are closed and there are comments, let's leave a little note, shall we?
 		if ( ! comments_open() && get_comments_number() && post_type_supports( get_post_type(), 'comments' ) ) :
 	?>
-		<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'kutetheme' ); ?></p>
+		<p class="no-comments"><?php esc_html_e( 'Bình luận bị xoá', 'kutetheme' ); ?></p>
 	<?php endif; ?>
 
 	<?php comment_form(); ?>

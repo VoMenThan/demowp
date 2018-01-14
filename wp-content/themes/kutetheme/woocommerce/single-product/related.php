@@ -43,7 +43,7 @@ if ( $products->have_posts() ) : ?>
 
 	<div class="<?php echo esc_attr( implode(' ', $class) );?>">
 
-		<h2><?php esc_html_e( 'Related Products', 'kutetheme' ); ?></h2>
+		<h2><?php esc_html_e( 'Sản phẩm tương tự', 'kutetheme' ); ?></h2>
 
 		<?php woocommerce_product_loop_start(); ?>
 

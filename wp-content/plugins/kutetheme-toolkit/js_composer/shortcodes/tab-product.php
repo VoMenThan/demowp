@@ -67,9 +67,9 @@ class WPBakeryShortCode_Tab_Producs extends WPBakeryShortCode {
         $elementClass = apply_filters( 'kt_product_tab_class_container', $elementClass );
         
         $tabs = array(
-            'best-sellers' => __( 'Best Sellers', 'kutetheme' ),
-            'on-sales'     => __( 'On Sale', 'kutetheme' ),
-            'new-arrivals' => __( 'New Products', 'kutetheme' )
+            'best-sellers' => __( 'Bán chạy', 'kutetheme' ),
+            'on-sales'     => __( 'Đang giảm giá', 'kutetheme' ),
+            'new-arrivals' => __( 'Sản phẩm mới', 'kutetheme' )
         );
         
         $meta_query = WC()->query->get_meta_query();
